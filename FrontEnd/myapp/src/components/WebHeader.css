@@ -1,0 +1,17 @@
+
+.logo img {
+    position: relative;
+    z-index: 9999;
+}
+
+.logo::before {
+    position: absolute;
+    content: "";
+    top: -15px;
+    background: url("./images/lo_be1.png");
+    width: 310px;
+    height: 138px;
+    left: -30px;
+    background-repeat: no-repeat;
+    z-index: 9998;
+}

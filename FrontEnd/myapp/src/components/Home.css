@@ -1,0 +1,24 @@
+
+.full_bg {
+    min-height: 100vh;
+    background: url("./images/banner2.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner_main {
+    width: 100%;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.h2 {
+    font-size: 50px;
+    color: #121212;
+    line-height: 45px;
+    font-weight: bold;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+}
